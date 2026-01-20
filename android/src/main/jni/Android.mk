@@ -29,4 +29,7 @@ LOCAL_SRC_FILES := $(LOCAL_PATH)/libscrypt-jni.c
 
 LOCAL_LDLIBS := -llog
 
+# Enable 16 KB page size support for Android 15+
+LOCAL_LDFLAGS := -Wl,-z,max-page-size=16384
+
 include $(BUILD_SHARED_LIBRARY)

@@ -1,6 +1,7 @@
 
 #include <errno.h>
 #include <string.h>
+#include <stdlib.h>
 #include <jni.h>
 #include <android/log.h>
 

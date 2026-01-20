@@ -1,3 +1,5 @@
 node_modules
 .idea
 
+android/src/main/obj
+.gradle
